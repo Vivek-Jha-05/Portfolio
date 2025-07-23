@@ -119,7 +119,7 @@ const About = () => {
                             className="!text-primaryColor"
                             rightSection={<IconDownload size={20} />}
                             component="a"
-                            href="/Vivek_Resume.pdf"
+                            href="Vivek_Resume.pdf"
                             download={Info.name}
                         >
                             Download
@@ -134,7 +134,7 @@ const About = () => {
           </NeonGradientCard> */}
                 <div className=' h-fit flex justify-center items-center w-fit bs:mr-14 rounded-full ' id='photo'>
                     <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center lg-mx:w-64 lg-mx:h-64 xms-mx:w-56 xms-mx:h-56">
-                        <img className='w-full h-full rounded-full ' src="/profile.png" alt="profile" />
+                        <img className='w-full h-full rounded-full ' src="profile.png" alt="profile" />
                     </NeonGradientCard>
                 </div>
             </div>
