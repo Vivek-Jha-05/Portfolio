@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-size: x-large;
+  font-style: normal;
+}
+
+.pangolin-regular {
+  font-family: "Pangolin", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-mono-light {
+  font-family: "DM Mono", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-mono-medium {
+  font-family: "DM Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-mono-light-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dm-mono-regular-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+html {
+  --primary-color: "#64FFDA";
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #112240;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #112240;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #64FFDA;
+}
