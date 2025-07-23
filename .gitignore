@@ -22,9 +22,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Files
-*.user
-*.png
-User.tsx
-firebase.tsx
-Vivek_Resume.pdf
